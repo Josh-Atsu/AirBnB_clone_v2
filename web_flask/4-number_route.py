@@ -50,7 +50,7 @@ def python_2():
 @app.route("/number/<int:n>")
 def number(n):
     """display n only if n is an integer"""
-    return "{} in a number".format(escape(n))
+    return "{} is a number".format(escape(n))
 
 
 if __name__ == "__main__":
